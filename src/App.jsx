@@ -31,9 +31,6 @@ const App = () => {
     setStack(stack.filter((_, i) => i !== index))
   }
 
-  const clearStack = () => {
-    setStack ([]);
-  }
 
   return (
     <main>
